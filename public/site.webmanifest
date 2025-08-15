@@ -1,0 +1,21 @@
+{
+  "name": "Aluguel de Cadeiras - Riacho Fundo 1",
+  "short_name": "Aluguel Cadeiras RF1",
+  "description": "Serviço de aluguel de cadeiras de qualidade no Riacho Fundo 1. Atendimento rápido, preço justo e entrega garantida.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
