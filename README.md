@@ -1,6 +1,6 @@
-# 🪑 Aluguel de Cadeiras - Riacho Fundo 1
+# 🪑 Aluguel de Cadeiras - Riacho Fundo 2
 
-Landing page moderna e otimizada para SEO para serviço de aluguel de cadeiras no Riacho Fundo 1, Brasília-DF.
+Landing page moderna e otimizada para SEO para serviço de aluguel de cadeiras no Riacho Fundo 2, Brasília-DF.
 
 ## 🚀 Tecnologias Utilizadas
 

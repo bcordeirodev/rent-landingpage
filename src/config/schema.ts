@@ -9,7 +9,7 @@ export const localBusinessSchema = {
     address: {
         "@type": "PostalAddress",
         streetAddress: siteConfig.address,
-        addressLocality: "Riacho Fundo 1",
+        addressLocality: "Riacho Fundo 2",
         addressRegion: "DF",
         addressCountry: "BR"
     },

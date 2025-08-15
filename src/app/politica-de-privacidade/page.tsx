@@ -48,9 +48,9 @@ export default function PoliticaPrivacidadePage() {
                     1. Introdução
                   </Heading>
                   <p className="text-neutral-700 leading-relaxed mb-4">
-                    O {siteConfig.name} está comprometido em proteger a privacidade e segurança 
-                    das informações pessoais de nossos clientes. Esta Política de Privacidade 
-                    descreve como coletamos, usamos, armazenamos e protegemos suas informações 
+                    O {siteConfig.name} está comprometido em proteger a privacidade e segurança
+                    das informações pessoais de nossos clientes. Esta Política de Privacidade
+                    descreve como coletamos, usamos, armazenamos e protegemos suas informações
                     quando você utiliza nossos serviços.
                   </p>
                 </section>
@@ -92,7 +92,7 @@ export default function PoliticaPrivacidadePage() {
                     4. Compartilhamento de Informações
                   </Heading>
                   <p className="text-neutral-700 leading-relaxed mb-4">
-                    Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros, 
+                    Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros,
                     exceto quando:
                   </p>
                   <ul className="list-disc list-inside text-neutral-700 space-y-2 mb-4">
@@ -107,9 +107,9 @@ export default function PoliticaPrivacidadePage() {
                     5. Segurança das Informações
                   </Heading>
                   <p className="text-neutral-700 leading-relaxed mb-4">
-                    Implementamos medidas de segurança adequadas para proteger suas informações 
-                    contra acesso não autorizado, alteração, divulgação ou destruição. Suas 
-                    informações são armazenadas em servidores seguros e são acessíveis apenas 
+                    Implementamos medidas de segurança adequadas para proteger suas informações
+                    contra acesso não autorizado, alteração, divulgação ou destruição. Suas
+                    informações são armazenadas em servidores seguros e são acessíveis apenas
                     por funcionários autorizados.
                   </p>
                 </section>
@@ -119,8 +119,8 @@ export default function PoliticaPrivacidadePage() {
                     6. Retenção de Dados
                   </Heading>
                   <p className="text-neutral-700 leading-relaxed mb-4">
-                    Mantemos suas informações pessoais apenas pelo tempo necessário para cumprir 
-                    os propósitos descritos nesta política, a menos que um período de retenção 
+                    Mantemos suas informações pessoais apenas pelo tempo necessário para cumprir
+                    os propósitos descritos nesta política, a menos que um período de retenção
                     mais longo seja exigido ou permitido por lei.
                   </p>
                 </section>
@@ -145,8 +145,8 @@ export default function PoliticaPrivacidadePage() {
                     8. Cookies e Tecnologias Similares
                   </Heading>
                   <p className="text-neutral-700 leading-relaxed mb-4">
-                    Nosso site pode usar cookies para melhorar sua experiência de navegação. 
-                    Você pode configurar seu navegador para recusar cookies, mas isso pode 
+                    Nosso site pode usar cookies para melhorar sua experiência de navegação.
+                    Você pode configurar seu navegador para recusar cookies, mas isso pode
                     afetar a funcionalidade do site.
                   </p>
                 </section>
@@ -156,9 +156,9 @@ export default function PoliticaPrivacidadePage() {
                     9. Alterações nesta Política
                   </Heading>
                   <p className="text-neutral-700 leading-relaxed mb-4">
-                    Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos 
-                    sobre mudanças significativas publicando a nova política em nosso site com 
-                    uma nova data de "última atualização".
+                    Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos
+                    sobre mudanças significativas publicando a nova política em nosso site com
+                    uma nova data de &ldquo;última atualização&rdquo;.
                   </p>
                 </section>
 
@@ -167,7 +167,7 @@ export default function PoliticaPrivacidadePage() {
                     10. Contato
                   </Heading>
                   <p className="text-neutral-700 leading-relaxed mb-4">
-                    Se você tiver dúvidas sobre esta Política de Privacidade ou sobre como 
+                    Se você tiver dúvidas sobre esta Política de Privacidade ou sobre como
                     tratamos suas informações pessoais, entre em contato conosco:
                   </p>
                   <div className="bg-neutral-50 p-4 rounded-lg">

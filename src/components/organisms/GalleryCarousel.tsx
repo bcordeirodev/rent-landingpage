@@ -44,14 +44,14 @@ export default function GalleryCarousel() {
   ];
 
   return (
-    <section id="galeria" className="py-20 bg-neutral-50">
+    <section id="galeria" className="py-16 sm:py-20 bg-neutral-900">
       <div className="container-custom">
-        <div className="max-w-3xl mx-auto text-center mb-16">
+        <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
           <Heading level={2} className="mb-6">
             Nossos Trabalhos
           </Heading>
-          <p className="text-lg text-neutral-600">
-            Veja alguns dos eventos que já realizamos e a qualidade 
+          <p className="text-lg text-neutral-300">
+            Veja alguns dos eventos que já realizamos e a qualidade
             das nossas cadeiras em diferentes ocasiões.
           </p>
         </div>
@@ -107,17 +107,17 @@ export default function GalleryCarousel() {
           </Swiper>
 
           {/* Custom Navigation Buttons */}
-          <button className="gallery-prev absolute left-4 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/90 hover:bg-white rounded-full shadow-lg flex items-center justify-center text-neutral-700 hover:text-primary-600 transition-all duration-200 hover:scale-110">
-            <ChevronLeft className="w-6 h-6" />
+          <button className="gallery-prev absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-neutral-800/90 hover:bg-neutral-700 rounded-full shadow-lg flex items-center justify-center text-neutral-200 hover:text-primary-400 transition-all duration-200 hover:scale-110">
+            <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
           </button>
-          <button className="gallery-next absolute right-4 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/90 hover:bg-white rounded-full shadow-lg flex items-center justify-center text-neutral-700 hover:text-primary-600 transition-all duration-200 hover:scale-110">
-            <ChevronRight className="w-6 h-6" />
+          <button className="gallery-next absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-neutral-800/90 hover:bg-neutral-700 rounded-full shadow-lg flex items-center justify-center text-neutral-200 hover:text-primary-400 transition-all duration-200 hover:scale-110">
+            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
           </button>
         </div>
 
         {/* Image counter */}
         <div className="text-center mt-8">
-          <span className="text-sm text-neutral-500">
+          <span className="text-sm text-neutral-400">
             {activeIndex + 1} de {images.length}
           </span>
         </div>
@@ -131,7 +131,7 @@ export default function GalleryCarousel() {
         .gallery-swiper .swiper-pagination-bullet {
           width: 12px;
           height: 12px;
-          background: #d1d5db;
+          background: #6b7280;
           opacity: 1;
         }
         

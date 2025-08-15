@@ -11,9 +11,29 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                primary: theme.colors.primary,
+                primary: {
+                    ...theme.colors.primary,
+                    25: '#f8faff',
+                },
                 secondary: theme.colors.secondary,
                 neutral: theme.colors.neutral,
+                green: {
+                    500: '#22c55e',
+                    600: '#16a34a',
+                    700: '#15803d',
+                },
+                blue: {
+                    500: '#3b82f6',
+                    600: '#2563eb',
+                },
+                purple: {
+                    500: '#a855f7',
+                    600: '#9333ea',
+                },
+                orange: {
+                    500: '#f97316',
+                    600: '#ea580c',
+                },
             },
             fontFamily: {
                 sans: theme.fontFamily.sans,
