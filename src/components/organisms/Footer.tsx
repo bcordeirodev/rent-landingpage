@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
 import SocialLink from '@/components/molecules/SocialLink';
 import { siteConfig } from '@/config/site';
@@ -32,18 +33,23 @@ export default function Footer() {
                     {/* Company info */}
                     <div className="lg:col-span-2">
                         <div className="mb-6">
-                            <div className="flex items-center gap-2">
-                                <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
-                                    <span className="text-white font-bold">AC</span>
+                            <div className="flex items-center gap-3">
+                                <div className="w-12 h-12 relative">
+                                    <Image
+                                        src="/logo.png"
+                                        alt="Jr Mundo Fest"
+                                        fill
+                                        className="object-contain"
+                                    />
                                 </div>
                                 <span className="text-white font-bold text-2xl">
-                                    Aluguel de Cadeiras
+                                    Jr Mundo Fest
                                 </span>
                             </div>
                         </div>
                         <p className="text-neutral-400 mb-6 leading-relaxed max-w-md">
-                            Oferecemos serviço de aluguel de cadeiras de qualidade no Riacho Fundo 2.
-                            Atendimento personalizado, entrega pontual e preços justos para seu evento.
+                            Jr Mundo Fest oferece eventos e entretenimento de qualidade no Riacho Fundo 2.
+                            Diversão garantida para toda a família com atendimento personalizado.
                         </p>
                         <div className="flex items-center gap-4">
                             <SocialLink

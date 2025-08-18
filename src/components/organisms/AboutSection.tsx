@@ -6,27 +6,27 @@ export default function AboutSection() {
     const features = [
         {
             icon: CheckCircle,
-            title: 'Qualidade Garantida',
-            description: 'Cadeiras higienizadas e em perfeito estado de conservação.',
-            color: 'from-green-500 to-green-600'
-        },
-        {
-            icon: Clock,
-            title: 'Entrega Rápida',
-            description: 'Atendimento ágil e pontual para seu evento.',
-            color: 'from-blue-500 to-blue-600'
-        },
-        {
-            icon: Truck,
-            title: 'Entrega e Retirada',
-            description: 'Levamos e buscamos as cadeiras no local do seu evento.',
+            title: 'Eventos Únicos',
+            description: 'Criamos experiências personalizadas e memoráveis para cada ocasião.',
             color: 'from-purple-500 to-purple-600'
         },
         {
+            icon: Clock,
+            title: 'Atendimento Rápido',
+            description: 'Resposta ágil e planejamento eficiente para seu evento.',
+            color: 'from-pink-500 to-pink-600'
+        },
+        {
+            icon: Truck,
+            title: 'Serviço Completo',
+            description: 'Cuidamos de todos os detalhes do seu evento do início ao fim.',
+            color: 'from-yellow-500 to-yellow-600'
+        },
+        {
             icon: Shield,
-            title: 'Confiança',
-            description: 'Anos de experiência servindo o Riacho Fundo 2.',
-            color: 'from-orange-500 to-orange-600'
+            title: 'Confiança Total',
+            description: 'Anos de experiência trazendo alegria ao Riacho Fundo 2.',
+            color: 'from-blue-500 to-blue-600'
         },
     ];
 
@@ -35,12 +35,12 @@ export default function AboutSection() {
             <div className="container-custom">
                 <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
                     <Heading level={2} className="mb-6">
-                        Por que escolher nosso serviço?
+                        Por que escolher o Jr Mundo Fest?
                     </Heading>
                     <p className="text-lg text-neutral-300 leading-relaxed">
-                        Somos especialistas em aluguel de cadeiras no Riacho Fundo 2, oferecendo
-                        um serviço completo e personalizado para tornar seu evento um sucesso.
-                        Nossa experiência e comprometimento garantem a satisfação dos nossos clientes.
+                        Somos especialistas em eventos e entretenimento no Riacho Fundo 2, oferecendo
+                        experiências únicas e personalizadas para tornar seu evento inesquecível.
+                        Nossa paixão e dedicação garantem a diversão e satisfação de todos os participantes.
                     </p>
                 </div>
 
@@ -66,28 +66,30 @@ export default function AboutSection() {
                 <div className="bg-neutral-900 rounded-2xl lg:rounded-3xl p-6 sm:p-8 lg:p-12 shadow-xl border border-neutral-700">
                     <div className="max-w-4xl mx-auto">
                         <Heading level={3} className="text-center mb-8">
-                            Nossa História
+                            <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                                Nossa História
+                            </span>
                         </Heading>
                         <div className="prose prose-lg mx-auto text-neutral-300 space-y-4 sm:space-y-6">
-                            <div className="bg-neutral-800/80 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-neutral-700/50">
+                            <div className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-purple-500/30">
                                 <p className="text-lg leading-relaxed">
-                                    Há mais de <span className="font-bold text-primary-400">10 anos</span> atendendo a comunidade do Riacho Fundo 2,
-                                    construímos nossa reputação baseada na qualidade, pontualidade e
-                                    excelência no atendimento. Entendemos que cada evento é único e
-                                    especial, por isso oferecemos soluções personalizadas para suas necessidades.
+                                    Há mais de <span className="font-bold text-purple-400">5 anos</span> levando alegria e diversão para a comunidade do Riacho Fundo 2,
+                                    construímos nossa reputação baseada na criatividade, inovação e
+                                    excelência no entretenimento. Entendemos que cada momento é único e
+                                    especial, por isso criamos experiências personalizadas para suas celebrações.
                                 </p>
                             </div>
-                            <div className="bg-neutral-800/80 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-neutral-700/50">
+                            <div className="bg-gradient-to-br from-pink-900/20 to-yellow-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-pink-500/30">
                                 <p className="text-lg leading-relaxed">
-                                    Nosso compromisso vai além do simples aluguel de cadeiras. Trabalhamos
-                                    para que você tenha <span className="font-bold text-secondary-400">tranquilidade e segurança</span>, sabendo que pode contar
-                                    conosco em todos os momentos do seu evento.
+                                    Nosso compromisso vai além do simples entretenimento. Trabalhamos
+                                    para que você tenha <span className="font-bold text-pink-400">momentos inesquecíveis e muita diversão</span>, sabendo que pode contar
+                                    conosco para transformar qualquer ocasião em uma festa especial.
                                 </p>
                             </div>
-                            <div className="bg-neutral-800/80 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-neutral-700/50">
+                            <div className="bg-gradient-to-br from-yellow-900/20 to-blue-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-yellow-500/30">
                                 <p className="text-lg leading-relaxed">
                                     Seja para festas de aniversário, casamentos, eventos corporativos ou
-                                    comemorações familiares, estamos aqui para fazer a <span className="font-bold text-green-400">diferença no seu dia especial</span>.
+                                    comemorações familiares, estamos aqui para fazer a <span className="font-bold text-yellow-400">magia acontecer no seu dia especial</span>.
                                 </p>
                             </div>
                         </div>

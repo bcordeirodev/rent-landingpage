@@ -4,15 +4,16 @@ import { siteConfig } from '@/config/site';
 import '@/styles/globals.css';
 
 export const metadata: Metadata = {
-    title: "Aluguel de Cadeiras - Riacho Fundo 2",
-    description: "Serviço de aluguel de cadeiras de qualidade no Riacho Fundo 2. Atendimento rápido, preço justo e entrega garantida.",
+    title: "Jr Mundo Fest - Eventos e Entretenimento",
+    description: "Jr Mundo Fest - Eventos e entretenimento de qualidade. Diversão garantida para toda a família no Riacho Fundo 2.",
     keywords: [
-        'aluguel de cadeiras',
-        'Riacho Fundo 2',
+        'Jr Mundo Fest',
         'eventos',
+        'entretenimento',
         'festas',
-        'casamento',
-        'aniversário',
+        'Riacho Fundo 2',
+        'diversão',
+        'família',
         'brasília',
         'df',
     ],

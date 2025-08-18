@@ -18,28 +18,28 @@ export default function GalleryCarousel() {
   // Sample images - replace with real images
   const images = [
     {
-      src: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80',
-      alt: 'Cadeiras organizadas para evento',
+      src: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80',
+      alt: 'Festa de aniversário infantil colorida',
     },
     {
       src: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80',
-      alt: 'Setup completo de cadeiras para casamento',
+      alt: 'Celebração de casamento especial',
     },
     {
       src: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80',
-      alt: 'Arranjo de cadeiras para festa',
+      alt: 'Evento familiar divertido',
     },
     {
       src: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80',
-      alt: 'Cadeiras para evento corporativo',
+      alt: 'Confraternização corporativa',
     },
     {
       src: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80',
-      alt: 'Evento ao ar livre com cadeiras',
+      alt: 'Festa ao ar livre com diversão',
     },
     {
       src: 'https://images.unsplash.com/photo-1549451371-64aa98a6f0b2?w=800&q=80',
-      alt: 'Festa de aniversário com cadeiras',
+      alt: 'Comemoração especial em família',
     },
   ];
 
@@ -48,11 +48,13 @@ export default function GalleryCarousel() {
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
           <Heading level={2} className="mb-6">
-            Nossos Trabalhos
+            <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+              Nossos Eventos
+            </span>
           </Heading>
           <p className="text-lg text-neutral-300">
-            Veja alguns dos eventos que já realizamos e a qualidade
-            das nossas cadeiras em diferentes ocasiões.
+            Veja alguns dos momentos especiais que já criamos e a alegria
+            que levamos para diferentes celebrações.
           </p>
         </div>
 
