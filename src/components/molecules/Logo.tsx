@@ -14,7 +14,7 @@ export default function Logo({ size = 'md' }: LogoProps) {
 
     return (
         <Link href="/" className="inline-flex items-center gap-3 group">
-            <div className={`${sizeClasses[size].image} relative group-hover:scale-110 transition-transform duration-200`}>
+            <div className={`${sizeClasses[size].image} relative group-hover:scale-110 transition-transform duration-200 logo-glow`}>
                 <Image
                     src="/logo.png"
                     alt="Jr Mundo Fest"

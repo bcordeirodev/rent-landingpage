@@ -7,7 +7,6 @@ export const siteConfig = {
     whatsapp: "https://wa.me/5561999467972",
     email: "jrmundofest@gmail.com",
     social: {
-        instagram: "https://www.instagram.com/jrmundofest_/",
-        facebook: "https://facebook.com/jrmundofest"
+        instagram: "https://www.instagram.com/jrmundofest_/"
     }
 };

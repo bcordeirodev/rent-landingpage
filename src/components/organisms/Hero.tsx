@@ -19,7 +19,7 @@ export default function Hero() {
                     {/* Badge */}
                     <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-500 to-secondary-500 text-white rounded-full text-sm font-semibold mb-8 animate-fade-in shadow-lg border border-primary-400">
                         <Star className="w-4 h-4 fill-current" style={{ color: 'var(--logo-yellow)' }} />
-                        Diversão e entretenimento no Riacho Fundo 2
+                        🎉 Diversão e alegria no Riacho Fundo 2!
                     </div>
 
                     {/* Main title */}
@@ -33,8 +33,8 @@ export default function Hero() {
 
                     {/* Subtitle */}
                     <p className="text-lg sm:text-xl text-neutral-300 mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed animate-slide-up px-4">
-                        Transformamos seus momentos especiais em experiências inesquecíveis.
-                        Diversão, alegria e entretenimento de qualidade para toda a família.
+                        ✨ Transformamos seus momentos especiais em experiências inesquecíveis!
+                        🎈 Diversão, alegria e entretenimento de qualidade para toda a família. 🎪
                     </p>
 
                     {/* CTA Buttons */}
@@ -45,10 +45,10 @@ export default function Hero() {
                             target="_blank"
                             rel="noopener noreferrer"
                             size="lg"
-                            className="group bg-green-600 hover:bg-green-700 text-white shadow-2xl hover:shadow-green-500/30 transform hover:scale-105 hover:-translate-y-1"
+                            className="group whatsapp-btn bg-green-500 hover:bg-green-600 text-white shadow-2xl hover:shadow-green-500/40 transform hover:scale-105 hover:-translate-y-1 font-semibold"
                         >
                             <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                            Falar no WhatsApp
+                            💬 Chama no Zap!
                         </Button>
 
                         <Button
@@ -69,19 +69,19 @@ export default function Hero() {
                             <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300" style={{ background: `linear-gradient(135deg, var(--logo-purple), var(--logo-blue))` }}>
                                 <span className="text-2xl font-bold text-white">200+</span>
                             </div>
-                            <div className="text-neutral-300 font-semibold">Eventos Realizados</div>
+                            <div className="text-neutral-300 font-semibold">🎉 Eventos Realizados</div>
                         </div>
                         <div className="text-center group">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300" style={{ background: `linear-gradient(135deg, var(--logo-cyan), var(--logo-magenta))` }}>
                                 <span className="text-2xl font-bold text-white">24h</span>
                             </div>
-                            <div className="text-neutral-300 font-semibold">Atendimento Rápido</div>
+                            <div className="text-neutral-300 font-semibold">⚡ Atendimento Rápido</div>
                         </div>
                         <div className="text-center group">
                             <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300" style={{ background: `linear-gradient(135deg, var(--logo-yellow), var(--logo-orange))` }}>
                                 <span className="text-lg font-bold text-white">100%</span>
                             </div>
-                            <div className="text-neutral-300 font-semibold">Diversão Garantida</div>
+                            <div className="text-neutral-300 font-semibold">🎊 Diversão Garantida</div>
                         </div>
                     </div>
                 </div>

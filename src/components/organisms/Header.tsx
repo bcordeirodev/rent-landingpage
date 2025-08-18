@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, Instagram, Facebook, MessageCircle } from 'lucide-react';
+import { Menu, X, Instagram, MessageCircle } from 'lucide-react';
 import Logo from '@/components/molecules/Logo';
 import SocialLink from '@/components/molecules/SocialLink';
 import Button from '@/components/atoms/Button';
@@ -40,30 +40,22 @@ export default function Header() {
 
                     {/* Desktop Actions */}
                     <div className="hidden md:flex items-center gap-4">
-                        <div className="flex items-center gap-3">
-                            <SocialLink
-                                icon={Instagram}
-                                href={siteConfig.social.instagram}
-                                label="Instagram"
-                                className="text-neutral-300 hover:text-pink-400 transition-colors"
-                            />
-                            <SocialLink
-                                icon={Facebook}
-                                href={siteConfig.social.facebook}
-                                label="Facebook"
-                                className="text-neutral-300 hover:text-blue-400 transition-colors"
-                            />
-                        </div>
+                        <SocialLink
+                            icon={Instagram}
+                            href={siteConfig.social.instagram}
+                            label="Instagram"
+                            isInstagram={true}
+                        />
                         <Button
                             as="a"
                             href={siteConfig.whatsapp}
                             target="_blank"
                             rel="noopener noreferrer"
                             size="sm"
-                            className="bg-green-600 hover:bg-green-700 text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+                            className="bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-green-500/50 transform hover:scale-105 transition-all font-medium"
                         >
                             <MessageCircle className="w-4 h-4" />
-                            WhatsApp
+                            Fale Conosco
                         </Button>
                     </div>
 
@@ -92,18 +84,12 @@ export default function Header() {
                                 </Link>
                             ))}
                             <div className="flex flex-col gap-4 pt-6 border-t border-neutral-700 mt-4">
-                                <div className="flex items-center justify-center gap-4">
+                                <div className="flex items-center justify-center">
                                     <SocialLink
                                         icon={Instagram}
                                         href={siteConfig.social.instagram}
                                         label="Instagram"
-                                        className="text-neutral-300 hover:text-pink-400 transition-colors"
-                                    />
-                                    <SocialLink
-                                        icon={Facebook}
-                                        href={siteConfig.social.facebook}
-                                        label="Facebook"
-                                        className="text-neutral-300 hover:text-blue-400 transition-colors"
+                                        isInstagram={true}
                                     />
                                 </div>
                                 <Button
@@ -113,10 +99,10 @@ export default function Header() {
                                     rel="noopener noreferrer"
                                     size="sm"
                                     fullWidth
-                                    className="bg-green-600 hover:bg-green-700 text-white"
+                                    className="bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-green-500/50 font-medium"
                                 >
                                     <MessageCircle className="w-4 h-4" />
-                                    WhatsApp
+                                    Fale Conosco
                                 </Button>
                             </div>
                         </nav>

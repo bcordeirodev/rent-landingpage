@@ -7,6 +7,7 @@ interface SocialLinkProps {
     label: string;
     variant?: 'default' | 'large';
     className?: string;
+    isInstagram?: boolean;
 }
 
 export default function SocialLink({
@@ -15,6 +16,7 @@ export default function SocialLink({
     label,
     variant = 'default',
     className,
+    isInstagram = false,
 }: SocialLinkProps) {
     const isLarge = variant === 'large';
 
@@ -26,7 +28,8 @@ export default function SocialLink({
             aria-label={label}
             className={clsx(
                 'inline-flex items-center justify-center rounded-full transition-all duration-200 hover:scale-110',
-                className || 'bg-primary-500 text-white hover:bg-primary-600 shadow-lg hover:shadow-xl',
+                isInstagram ? 'instagram-gradient text-white shadow-lg hover:shadow-xl' :
+                    className || 'bg-primary-500 text-white hover:bg-primary-600 shadow-lg hover:shadow-xl',
                 isLarge ? 'w-12 h-12' : 'w-10 h-10'
             )}
         >

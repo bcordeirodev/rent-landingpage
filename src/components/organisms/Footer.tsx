@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
 import SocialLink from '@/components/molecules/SocialLink';
 import { siteConfig } from '@/config/site';
 
@@ -51,20 +51,13 @@ export default function Footer() {
                             Jr Mundo Fest oferece eventos e entretenimento de qualidade no Riacho Fundo 2.
                             Diversão garantida para toda a família com atendimento personalizado.
                         </p>
-                        <div className="flex items-center gap-4">
+                        <div className="flex items-center justify-start">
                             <SocialLink
                                 icon={Instagram}
                                 href={siteConfig.social.instagram}
                                 label="Instagram"
                                 variant="large"
-                                className="bg-neutral-800 text-neutral-300 hover:bg-pink-600 hover:text-white transition-all"
-                            />
-                            <SocialLink
-                                icon={Facebook}
-                                href={siteConfig.social.facebook}
-                                label="Facebook"
-                                variant="large"
-                                className="bg-neutral-800 text-neutral-300 hover:bg-blue-600 hover:text-white transition-all"
+                                isInstagram={true}
                             />
                         </div>
                     </div>
