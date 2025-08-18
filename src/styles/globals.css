@@ -5,6 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @layer base {
+  :root {
+    /* Colors from Jr Mundo Fest logo - suaves para público infantil */
+    --logo-purple: #8b5cf6;
+    --logo-cyan: #06b6d4;
+    --logo-magenta: #ec4899;
+    --logo-yellow: #fbbf24;
+    --logo-orange: #f97316;
+    --logo-blue: #3b82f6;
+  }
+
   html {
     scroll-behavior: smooth;
   }

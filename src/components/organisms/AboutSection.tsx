@@ -66,30 +66,30 @@ export default function AboutSection() {
                 <div className="bg-neutral-900 rounded-2xl lg:rounded-3xl p-6 sm:p-8 lg:p-12 shadow-xl border border-neutral-700">
                     <div className="max-w-4xl mx-auto">
                         <Heading level={3} className="text-center mb-8">
-                            <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                            <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">
                                 Nossa História
                             </span>
                         </Heading>
                         <div className="prose prose-lg mx-auto text-neutral-300 space-y-4 sm:space-y-6">
-                            <div className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-purple-500/30">
+                            <div className="bg-primary-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-primary-500/30">
                                 <p className="text-lg leading-relaxed">
-                                    Há mais de <span className="font-bold text-purple-400">5 anos</span> levando alegria e diversão para a comunidade do Riacho Fundo 2,
+                                    Há mais de <span className="font-bold text-primary-400">5 anos</span> levando alegria e diversão para a comunidade do Riacho Fundo 2,
                                     construímos nossa reputação baseada na criatividade, inovação e
                                     excelência no entretenimento. Entendemos que cada momento é único e
                                     especial, por isso criamos experiências personalizadas para suas celebrações.
                                 </p>
                             </div>
-                            <div className="bg-gradient-to-br from-pink-900/20 to-yellow-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-pink-500/30">
+                            <div className="bg-secondary-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-secondary-500/30">
                                 <p className="text-lg leading-relaxed">
                                     Nosso compromisso vai além do simples entretenimento. Trabalhamos
-                                    para que você tenha <span className="font-bold text-pink-400">momentos inesquecíveis e muita diversão</span>, sabendo que pode contar
+                                    para que você tenha <span className="font-bold text-secondary-400">momentos inesquecíveis e muita diversão</span>, sabendo que pode contar
                                     conosco para transformar qualquer ocasião em uma festa especial.
                                 </p>
                             </div>
-                            <div className="bg-gradient-to-br from-yellow-900/20 to-blue-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-yellow-500/30">
+                            <div className="backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border" style={{ backgroundColor: 'rgba(251, 191, 36, 0.1)', borderColor: 'rgba(251, 191, 36, 0.3)' }}>
                                 <p className="text-lg leading-relaxed">
                                     Seja para festas de aniversário, casamentos, eventos corporativos ou
-                                    comemorações familiares, estamos aqui para fazer a <span className="font-bold text-yellow-400">magia acontecer no seu dia especial</span>.
+                                    comemorações familiares, estamos aqui para fazer a <span className="font-bold" style={{ color: 'var(--logo-yellow)' }}>magia acontecer no seu dia especial</span>.
                                 </p>
                             </div>
                         </div>

@@ -48,7 +48,7 @@ export default function GalleryCarousel() {
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
           <Heading level={2} className="mb-6">
-            <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">
               Nossos Eventos
             </span>
           </Heading>

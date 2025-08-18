@@ -36,7 +36,7 @@ export default function PoliticaPrivacidadePage() {
               <Heading level={1} className="mb-4">
                 Política de Privacidade
               </Heading>
-              <p className="text-neutral-600">
+              <p className="text-neutral-400">
                 Última atualização: {lastUpdated}
               </p>
             </div>
@@ -47,7 +47,7 @@ export default function PoliticaPrivacidadePage() {
                   <Heading level={2} className="mb-4">
                     1. Introdução
                   </Heading>
-                  <p className="text-neutral-700 leading-relaxed mb-4">
+                  <p className="text-neutral-300 leading-relaxed mb-4">
                     O {siteConfig.name} está comprometido em proteger a privacidade e segurança
                     das informações pessoais de nossos clientes. Esta Política de Privacidade
                     descreve como coletamos, usamos, armazenamos e protegemos suas informações
@@ -59,10 +59,10 @@ export default function PoliticaPrivacidadePage() {
                   <Heading level={2} className="mb-4">
                     2. Informações que Coletamos
                   </Heading>
-                  <p className="text-neutral-700 leading-relaxed mb-4">
+                  <p className="text-neutral-300 leading-relaxed mb-4">
                     Coletamos as seguintes informações quando você entra em contato conosco:
                   </p>
-                  <ul className="list-disc list-inside text-neutral-700 space-y-2 mb-4">
+                  <ul className="list-disc list-inside text-neutral-300 space-y-2 mb-4">
                     <li>Nome completo</li>
                     <li>Endereço de e-mail</li>
                     <li>Número de telefone</li>
@@ -75,10 +75,10 @@ export default function PoliticaPrivacidadePage() {
                   <Heading level={2} className="mb-4">
                     3. Como Utilizamos suas Informações
                   </Heading>
-                  <p className="text-neutral-700 leading-relaxed mb-4">
+                  <p className="text-neutral-300 leading-relaxed mb-4">
                     Utilizamos suas informações para:
                   </p>
-                  <ul className="list-disc list-inside text-neutral-700 space-y-2 mb-4">
+                  <ul className="list-disc list-inside text-neutral-300 space-y-2 mb-4">
                     <li>Responder às suas solicitações de orçamento</li>
                     <li>Fornecer nossos serviços de aluguel de cadeiras</li>
                     <li>Comunicar sobre seu evento e agendamentos</li>
@@ -91,11 +91,11 @@ export default function PoliticaPrivacidadePage() {
                   <Heading level={2} className="mb-4">
                     4. Compartilhamento de Informações
                   </Heading>
-                  <p className="text-neutral-700 leading-relaxed mb-4">
+                  <p className="text-neutral-300 leading-relaxed mb-4">
                     Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros,
                     exceto quando:
                   </p>
-                  <ul className="list-disc list-inside text-neutral-700 space-y-2 mb-4">
+                  <ul className="list-disc list-inside text-neutral-300 space-y-2 mb-4">
                     <li>For necessário para fornecer nossos serviços</li>
                     <li>Tivermos seu consentimento explícito</li>
                     <li>For exigido por lei</li>
@@ -106,7 +106,7 @@ export default function PoliticaPrivacidadePage() {
                   <Heading level={2} className="mb-4">
                     5. Segurança das Informações
                   </Heading>
-                  <p className="text-neutral-700 leading-relaxed mb-4">
+                  <p className="text-neutral-300 leading-relaxed mb-4">
                     Implementamos medidas de segurança adequadas para proteger suas informações
                     contra acesso não autorizado, alteração, divulgação ou destruição. Suas
                     informações são armazenadas em servidores seguros e são acessíveis apenas
@@ -118,7 +118,7 @@ export default function PoliticaPrivacidadePage() {
                   <Heading level={2} className="mb-4">
                     6. Retenção de Dados
                   </Heading>
-                  <p className="text-neutral-700 leading-relaxed mb-4">
+                  <p className="text-neutral-300 leading-relaxed mb-4">
                     Mantemos suas informações pessoais apenas pelo tempo necessário para cumprir
                     os propósitos descritos nesta política, a menos que um período de retenção
                     mais longo seja exigido ou permitido por lei.
@@ -129,10 +129,10 @@ export default function PoliticaPrivacidadePage() {
                   <Heading level={2} className="mb-4">
                     7. Seus Direitos
                   </Heading>
-                  <p className="text-neutral-700 leading-relaxed mb-4">
+                  <p className="text-neutral-300 leading-relaxed mb-4">
                     Você tem o direito de:
                   </p>
-                  <ul className="list-disc list-inside text-neutral-700 space-y-2 mb-4">
+                  <ul className="list-disc list-inside text-neutral-300 space-y-2 mb-4">
                     <li>Acessar suas informações pessoais que possuímos</li>
                     <li>Solicitar correção de informações incorretas</li>
                     <li>Solicitar exclusão de suas informações</li>
@@ -144,7 +144,7 @@ export default function PoliticaPrivacidadePage() {
                   <Heading level={2} className="mb-4">
                     8. Cookies e Tecnologias Similares
                   </Heading>
-                  <p className="text-neutral-700 leading-relaxed mb-4">
+                  <p className="text-neutral-300 leading-relaxed mb-4">
                     Nosso site pode usar cookies para melhorar sua experiência de navegação.
                     Você pode configurar seu navegador para recusar cookies, mas isso pode
                     afetar a funcionalidade do site.
@@ -155,7 +155,7 @@ export default function PoliticaPrivacidadePage() {
                   <Heading level={2} className="mb-4">
                     9. Alterações nesta Política
                   </Heading>
-                  <p className="text-neutral-700 leading-relaxed mb-4">
+                  <p className="text-neutral-300 leading-relaxed mb-4">
                     Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos
                     sobre mudanças significativas publicando a nova política em nosso site com
                     uma nova data de &ldquo;última atualização&rdquo;.
@@ -166,18 +166,18 @@ export default function PoliticaPrivacidadePage() {
                   <Heading level={2} className="mb-4">
                     10. Contato
                   </Heading>
-                  <p className="text-neutral-700 leading-relaxed mb-4">
+                  <p className="text-neutral-300 leading-relaxed mb-4">
                     Se você tiver dúvidas sobre esta Política de Privacidade ou sobre como
                     tratamos suas informações pessoais, entre em contato conosco:
                   </p>
-                  <div className="bg-neutral-50 p-4 rounded-lg">
-                    <p className="text-neutral-700 mb-2">
+                  <div className="bg-neutral-800 p-4 rounded-lg">
+                    <p className="text-neutral-300 mb-2">
                       <strong>E-mail:</strong> {siteConfig.email}
                     </p>
-                    <p className="text-neutral-700 mb-2">
+                    <p className="text-neutral-300 mb-2">
                       <strong>Telefone:</strong> {siteConfig.phone}
                     </p>
-                    <p className="text-neutral-700">
+                    <p className="text-neutral-300">
                       <strong>Endereço:</strong> {siteConfig.address}
                     </p>
                   </div>
