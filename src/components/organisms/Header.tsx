@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { Menu, X, Instagram, MessageCircle } from 'lucide-react';
 import Logo from '@/components/molecules/Logo';
 import SocialLink from '@/components/molecules/SocialLink';
-import Button from '@/components/atoms/Button';
 import { siteConfig } from '@/config/site';
 import { createWhatsAppUrl } from '@/utils/whatsapp';
 
