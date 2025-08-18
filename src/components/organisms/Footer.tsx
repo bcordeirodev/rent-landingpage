@@ -10,6 +10,7 @@ export default function Footer() {
     const quickLinks = [
         { label: 'Início', href: '/' },
         { label: 'Sobre', href: '#sobre' },
+        { label: 'Produtos', href: '#produtos' },
         { label: 'Galeria', href: '#galeria' },
         { label: 'Política de Privacidade', href: '/politica-de-privacidade' },
     ];

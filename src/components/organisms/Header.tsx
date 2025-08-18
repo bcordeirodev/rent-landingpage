@@ -14,6 +14,7 @@ export default function Header() {
     const menuItems = [
         { label: 'Início', href: '/' },
         { label: 'Sobre', href: '#sobre' },
+        { label: 'Produtos', href: '#produtos' },
         { label: 'Galeria', href: '#galeria' },
     ];
 
@@ -40,12 +41,20 @@ export default function Header() {
 
                     {/* Desktop Actions */}
                     <div className="hidden md:flex items-center gap-4">
-                        <SocialLink
-                            icon={Instagram}
-                            href={siteConfig.social.instagram}
-                            label="Instagram"
-                            isInstagram={true}
-                        />
+                        <div className="flex items-center gap-3">
+                            <SocialLink
+                                icon={Instagram}
+                                href={siteConfig.social.instagram}
+                                label="Instagram"
+                                isInstagram={true}
+                            />
+                            <SocialLink
+                                icon={MessageCircle}
+                                href={siteConfig.whatsapp}
+                                label="WhatsApp"
+                                className="bg-green-500 text-white hover:bg-green-600 shadow-lg hover:shadow-green-500/50 transition-all"
+                            />
+                        </div>
                         <Button
                             as="a"
                             href={siteConfig.whatsapp}
@@ -84,12 +93,18 @@ export default function Header() {
                                 </Link>
                             ))}
                             <div className="flex flex-col gap-4 pt-6 border-t border-neutral-700 mt-4">
-                                <div className="flex items-center justify-center">
+                                <div className="flex items-center justify-center gap-4">
                                     <SocialLink
                                         icon={Instagram}
                                         href={siteConfig.social.instagram}
                                         label="Instagram"
                                         isInstagram={true}
+                                    />
+                                    <SocialLink
+                                        icon={MessageCircle}
+                                        href={siteConfig.whatsapp}
+                                        label="WhatsApp"
+                                        className="bg-green-500 text-white hover:bg-green-600 shadow-lg hover:shadow-green-500/50 transition-all"
                                     />
                                 </div>
                                 <Button

@@ -19,27 +19,33 @@ export default function GalleryCarousel() {
   const images = [
     {
       src: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80',
-      alt: 'Festa de aniversário infantil colorida',
+      alt: '🎂 Festa de aniversário com nossas cadeiras coloridas',
+      category: 'Aniversário'
     },
     {
       src: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80',
-      alt: 'Celebração de casamento especial',
-    },
-    {
-      src: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80',
-      alt: 'Evento familiar divertido',
+      alt: '💒 Casamento elegante com nossas mesas e cadeiras',
+      category: 'Casamento'
     },
     {
       src: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80',
-      alt: 'Confraternização corporativa',
+      alt: '🎪 Cama elástica animando a festa infantil',
+      category: 'Festa Infantil'
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=800&q=80',
+      alt: '🏀 Piscina de bolinhas - diversão garantida!',
+      category: 'Brinquedos'
     },
     {
       src: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80',
-      alt: 'Festa ao ar livre com diversão',
+      alt: '🌳 Evento ao ar livre com nossas mesas',
+      category: 'Eventos'
     },
     {
       src: 'https://images.unsplash.com/photo-1549451371-64aa98a6f0b2?w=800&q=80',
-      alt: 'Comemoração especial em família',
+      alt: '👨‍👩‍👧‍👦 Reunião familiar com nossos produtos',
+      category: 'Família'
     },
   ];
 
@@ -52,9 +58,9 @@ export default function GalleryCarousel() {
               Nossos Eventos
             </span>
           </Heading>
-          <p className="text-lg text-neutral-300">
-            Veja alguns dos momentos especiais que já criamos e a alegria
-            que levamos para diferentes celebrações.
+                    <p className="text-lg text-neutral-300">
+            📸 Veja nossos produtos em ação! Momentos especiais que já criamos 
+            com nossas mesas, cadeiras, cama elástica e piscina de bolinhas. 🎉
           </p>
         </div>
 
@@ -101,7 +107,10 @@ export default function GalleryCarousel() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
                   <div className="absolute bottom-4 left-4 right-4 text-white transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                    <p className="text-sm font-medium">{image.alt}</p>
+                    <div className="bg-neutral-900/80 backdrop-blur-sm rounded-lg p-3">
+                      <span className="text-xs font-semibold text-primary-400 uppercase tracking-wide">{image.category}</span>
+                      <p className="text-sm font-medium mt-1">{image.alt}</p>
+                    </div>
                   </div>
                 </div>
               </SwiperSlide>
