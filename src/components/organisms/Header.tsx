@@ -7,6 +7,7 @@ import Logo from '@/components/molecules/Logo';
 import SocialLink from '@/components/molecules/SocialLink';
 import Button from '@/components/atoms/Button';
 import { siteConfig } from '@/config/site';
+import { createWhatsAppUrl } from '@/utils/whatsapp';
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,7 @@ export default function Header() {
     ];
 
     return (
-        <header className="sticky top-0 z-50 bg-neutral-800/95 backdrop-blur-md border-b border-neutral-700 shadow-xl">
+        <header className="sticky top-0 z-50 bg-gradient-to-r from-slate-900/95 via-slate-800/95 to-indigo-900/95 backdrop-blur-md border-b border-slate-600/50 shadow-xl">
             <div className="container-custom">
                 <div className="flex items-center justify-between h-14 sm:h-16 lg:h-20">
                     {/* Logo */}
@@ -50,22 +51,11 @@ export default function Header() {
                             />
                             <SocialLink
                                 icon={MessageCircle}
-                                href={siteConfig.whatsapp}
+                                href={createWhatsAppUrl(siteConfig.phoneNumber, siteConfig.whatsappMessages.info)}
                                 label="WhatsApp"
                                 className="bg-green-500 text-white hover:bg-green-600 shadow-lg hover:shadow-green-500/50 transition-all"
                             />
                         </div>
-                        <Button
-                            as="a"
-                            href={siteConfig.whatsapp}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            size="sm"
-                            className="bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-green-500/50 transform hover:scale-105 transition-all font-medium"
-                        >
-                            <MessageCircle className="w-4 h-4" />
-                            Fale Conosco
-                        </Button>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -80,7 +70,7 @@ export default function Header() {
 
                 {/* Mobile Menu */}
                 {isMenuOpen && (
-                    <div className="md:hidden border-t border-neutral-700 py-6 bg-neutral-800 animate-fade-in">
+                    <div className="md:hidden border-t border-slate-600/50 py-6 bg-gradient-to-r from-slate-900/95 via-slate-800/95 to-indigo-900/95 backdrop-blur-md animate-fade-in">
                         <nav className="flex flex-col gap-2">
                             {menuItems.map((item) => (
                                 <Link
@@ -102,23 +92,11 @@ export default function Header() {
                                     />
                                     <SocialLink
                                         icon={MessageCircle}
-                                        href={siteConfig.whatsapp}
+                                        href={createWhatsAppUrl(siteConfig.phoneNumber, siteConfig.whatsappMessages.info)}
                                         label="WhatsApp"
                                         className="bg-green-500 text-white hover:bg-green-600 shadow-lg hover:shadow-green-500/50 transition-all"
                                     />
                                 </div>
-                                <Button
-                                    as="a"
-                                    href={siteConfig.whatsapp}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    size="sm"
-                                    fullWidth
-                                    className="bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-green-500/50 font-medium"
-                                >
-                                    <MessageCircle className="w-4 h-4" />
-                                    Fale Conosco
-                                </Button>
                             </div>
                         </nav>
                     </div>

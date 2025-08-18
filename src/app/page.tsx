@@ -13,8 +13,8 @@ export default function HomePage() {
             <Header />
             <main>
                 <Hero />
-                <AboutSection />
                 <ProductsSection />
+                <AboutSection />
                 <GalleryCarousel />
             </main>
             <Footer />

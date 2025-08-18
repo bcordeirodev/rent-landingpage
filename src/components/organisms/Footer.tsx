@@ -22,7 +22,7 @@ export default function Footer() {
     ];
 
     return (
-        <footer className="bg-neutral-950 text-neutral-300 relative overflow-hidden">
+        <footer className="bg-gradient-to-br from-slate-900/90 via-slate-800/90 to-indigo-900/90 text-neutral-300 relative overflow-hidden">
             {/* Background decorations */}
             <div className="absolute inset-0 overflow-hidden">
                 <div className="absolute -top-20 -right-20 w-64 h-64 bg-primary-500 rounded-full opacity-5 blur-3xl" />

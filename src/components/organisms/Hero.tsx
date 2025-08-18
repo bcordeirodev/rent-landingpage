@@ -1,17 +1,19 @@
-import { MessageCircle, Phone, Star } from 'lucide-react';
+import { MessageCircle, Star, Instagram } from 'lucide-react';
 import Heading from '@/components/atoms/Heading';
 import Button from '@/components/atoms/Button';
 import { siteConfig } from '@/config/site';
+import { createWhatsAppUrl } from '@/utils/whatsapp';
 
 export default function Hero() {
     return (
-        <section className="relative py-16 sm:py-24 lg:py-36 bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 overflow-hidden">
+        <section className="relative py-16 sm:py-24 lg:py-36 bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 overflow-hidden">
             {/* Background decorations */}
             <div className="absolute inset-0 overflow-hidden">
-                <div className="absolute -top-20 -right-20 w-96 h-96 rounded-full opacity-15 blur-3xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-purple), var(--logo-blue))` }} />
-                <div className="absolute -bottom-20 -left-20 w-96 h-96 rounded-full opacity-15 blur-3xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-cyan), var(--logo-magenta))`, animationDelay: '1s' }} />
-                <div className="absolute top-1/4 right-1/4 w-64 h-64 rounded-full opacity-12 blur-2xl animate-bounce-slow" style={{ background: `linear-gradient(135deg, var(--logo-yellow), var(--logo-orange))` }} />
-                <div className="absolute bottom-1/4 left-1/4 w-48 h-48 rounded-full opacity-12 blur-2xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-magenta), var(--logo-purple))`, animationDelay: '2s' }} />
+                <div className="absolute -top-20 -right-20 w-96 h-96 rounded-full opacity-20 blur-3xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-purple), var(--logo-blue))` }} />
+                <div className="absolute -bottom-20 -left-20 w-96 h-96 rounded-full opacity-25 blur-3xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-cyan), var(--logo-magenta))`, animationDelay: '1s' }} />
+                <div className="absolute top-1/4 right-1/4 w-64 h-64 rounded-full opacity-18 blur-2xl animate-bounce-slow" style={{ background: `linear-gradient(135deg, var(--logo-yellow), var(--logo-orange))` }} />
+                <div className="absolute bottom-1/4 left-1/4 w-48 h-48 rounded-full opacity-20 blur-2xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-magenta), var(--logo-purple))`, animationDelay: '2s' }} />
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full opacity-15 blur-xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-yellow), var(--logo-cyan))`, animationDelay: '3s' }} />
             </div>
 
             <div className="container-custom relative">
@@ -41,25 +43,26 @@ export default function Hero() {
                     <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center animate-slide-up px-4">
                         <Button
                             as="a"
-                            href={siteConfig.whatsapp}
+                            href={createWhatsAppUrl(siteConfig.phoneNumber, siteConfig.whatsappMessages.contact)}
                             target="_blank"
                             rel="noopener noreferrer"
                             size="lg"
-                            className="group whatsapp-btn bg-green-500 hover:bg-green-600 text-white shadow-2xl hover:shadow-green-500/40 transform hover:scale-105 hover:-translate-y-1 font-semibold"
+                            className="group whatsapp-btn whatsapp-green text-white shadow-2xl hover:shadow-green-500/40 transform hover:scale-105 hover:-translate-y-1 font-semibold"
                         >
                             <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                            💬 Chama no Zap!
+                            Chama no Zap!
                         </Button>
 
                         <Button
                             as="a"
-                            href={`tel:${siteConfig.phone}`}
-                            variant="outline"
+                            href={siteConfig.social.instagram}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             size="lg"
-                            className="group border-2 border-primary-400 text-primary-400 hover:bg-primary-500 hover:text-white shadow-xl hover:shadow-primary-500/30 transform hover:scale-105 hover:-translate-y-1"
+                            className="group instagram-gradient text-white shadow-2xl hover:shadow-pink-500/40 transform hover:scale-105 hover:-translate-y-1 font-semibold border-0"
                         >
-                            <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                            Ligar Agora
+                            <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                            Veja nosso Instagram
                         </Button>
                     </div>
 

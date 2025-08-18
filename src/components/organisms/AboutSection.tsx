@@ -31,8 +31,14 @@ export default function AboutSection() {
     ];
 
     return (
-        <section id="sobre" className="py-16 sm:py-20 bg-neutral-800">
-            <div className="container-custom">
+        <section id="sobre" className="py-16 sm:py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 relative overflow-hidden">
+            {/* Background decorations */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute top-16 left-16 w-56 h-56 rounded-full opacity-8 blur-2xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-magenta), var(--logo-purple))` }} />
+                <div className="absolute bottom-16 right-16 w-40 h-40 rounded-full opacity-10 blur-xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-orange), var(--logo-yellow))`, animationDelay: '1s' }} />
+            </div>
+
+            <div className="container-custom relative">
                 <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
                     <Heading level={2} className="mb-6">
                         Por que escolher o Jr Mundo Fest?
@@ -48,7 +54,7 @@ export default function AboutSection() {
                     {features.map((feature, index) => (
                         <Card
                             key={index}
-                            className="text-center hover:shadow-2xl hover:shadow-primary-500/20 transition-all duration-500 group hover:-translate-y-2 border border-neutral-700 bg-neutral-900"
+                            className="text-center hover:shadow-2xl hover:shadow-primary-500/30 transition-all duration-500 group hover:-translate-y-3 border-2 border-neutral-600 hover:border-primary-400/50 bg-gradient-to-br from-neutral-800 to-neutral-900 backdrop-blur-sm"
                         >
                             <div className={`w-20 h-20 bg-gradient-to-br ${feature.color} rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg`}>
                                 <feature.icon className="w-10 h-10 text-white" />
@@ -64,7 +70,7 @@ export default function AboutSection() {
                 </div>
 
                 <div className="bg-neutral-900 rounded-2xl lg:rounded-3xl p-6 sm:p-8 lg:p-12 shadow-xl border border-neutral-700">
-                    <div className="max-w-4xl mx-auto">
+                    <div className="max-w-1xl mx-auto">
                         <Heading level={3} className="text-center mb-8">
                             <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">
                                 Nossa História

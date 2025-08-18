@@ -50,16 +50,22 @@ export default function GalleryCarousel() {
   ];
 
   return (
-    <section id="galeria" className="py-16 sm:py-20 bg-neutral-900">
-      <div className="container-custom">
+    <section id="galeria" className="py-16 sm:py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900 relative overflow-hidden">
+      {/* Background decorations */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-32 left-10 w-48 h-48 rounded-full opacity-8 blur-2xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-purple), var(--logo-magenta))` }} />
+        <div className="absolute bottom-32 right-10 w-64 h-64 rounded-full opacity-10 blur-xl animate-pulse" style={{ background: `linear-gradient(135deg, var(--logo-cyan), var(--logo-yellow))`, animationDelay: '1.5s' }} />
+      </div>
+
+      <div className="container-custom relative">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
           <Heading level={2} className="mb-6">
             <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">
               Nossos Eventos
             </span>
           </Heading>
-                    <p className="text-lg text-neutral-300">
-            📸 Veja nossos produtos em ação! Momentos especiais que já criamos 
+          <p className="text-lg text-neutral-300">
+            📸 Veja nossos produtos em ação! Momentos especiais que já criamos
             com nossas mesas, cadeiras, cama elástica e piscina de bolinhas. 🎉
           </p>
         </div>
@@ -118,10 +124,10 @@ export default function GalleryCarousel() {
           </Swiper>
 
           {/* Custom Navigation Buttons */}
-          <button className="gallery-prev absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-neutral-800/90 hover:bg-neutral-700 rounded-full shadow-lg flex items-center justify-center text-neutral-200 hover:text-primary-400 transition-all duration-200 hover:scale-110">
+          <button className="gallery-prev absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-neutral-800/95 to-neutral-900/95 hover:from-neutral-700/95 hover:to-neutral-800/95 rounded-full shadow-xl hover:shadow-primary-500/30 flex items-center justify-center text-neutral-200 hover:text-primary-400 transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-neutral-600/50">
             <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
           </button>
-          <button className="gallery-next absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-neutral-800/90 hover:bg-neutral-700 rounded-full shadow-lg flex items-center justify-center text-neutral-200 hover:text-primary-400 transition-all duration-200 hover:scale-110">
+          <button className="gallery-next absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-neutral-800/95 to-neutral-900/95 hover:from-neutral-700/95 hover:to-neutral-800/95 rounded-full shadow-xl hover:shadow-primary-500/30 flex items-center justify-center text-neutral-200 hover:text-primary-400 transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-neutral-600/50">
             <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
           </button>
         </div>

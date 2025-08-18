@@ -2,11 +2,12 @@
 
 import { MessageCircle } from 'lucide-react';
 import { siteConfig } from '@/config/site';
+import { createWhatsAppUrl } from '@/utils/whatsapp';
 
 export default function FloatingWhatsApp() {
     return (
         <a
-            href={siteConfig.whatsapp}
+            href={createWhatsAppUrl(siteConfig.phoneNumber, siteConfig.whatsappMessages.contact)}
             target="_blank"
             rel="noopener noreferrer"
             className="fixed bottom-6 right-6 z-50 group"
@@ -15,7 +16,7 @@ export default function FloatingWhatsApp() {
             <div className="relative">
                 {/* Pulso de notificação */}
                 <div className="absolute -inset-1 bg-green-500 rounded-full animate-ping opacity-75"></div>
-                
+
                 {/* Botão principal */}
                 <div className="relative w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-2xl hover:shadow-green-500/50 transition-all duration-300 group-hover:scale-110">
                     <MessageCircle className="w-7 h-7 text-white" />
