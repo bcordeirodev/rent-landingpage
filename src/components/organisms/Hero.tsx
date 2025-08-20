@@ -20,7 +20,6 @@ export default function Hero() {
                 <div className="max-w-4xl mx-auto text-center">
                     {/* Badge */}
                     <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary-500 to-secondary-500 text-white rounded-full text-sm font-semibold mb-8 animate-fade-in shadow-lg border border-primary-400">
-                        <Star className="w-4 h-4 fill-current" style={{ color: 'var(--logo-yellow)' }} />
                         🎉 Diversão e alegria no Riacho Fundo 2!
                     </div>
 
@@ -67,24 +66,24 @@ export default function Hero() {
                     </div>
 
                     {/* Trust indicators */}
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mt-16 sm:mt-20 pt-12 sm:pt-16 border-t border-neutral-700 px-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-10 mt-16 sm:mt-20 pt-16 sm:pt-20 border-t border-neutral-700 px-4 sm:px-6">
                         <div className="text-center group">
-                            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300" style={{ background: `linear-gradient(135deg, var(--logo-purple), var(--logo-blue))` }}>
-                                <span className="text-2xl font-bold text-white">200+</span>
+                            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:shadow-2xl group-hover:scale-110 transition-all duration-300" style={{ background: `linear-gradient(135deg, var(--logo-purple), var(--logo-blue))` }}>
+                                <span className="text-xl sm:text-2xl font-bold text-white">200+</span>
                             </div>
-                            <div className="text-neutral-300 font-semibold">🎉 Eventos Realizados</div>
+                            <div className="text-neutral-300 font-semibold text-sm sm:text-base px-2">🎉 Eventos Realizados</div>
                         </div>
                         <div className="text-center group">
-                            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300" style={{ background: `linear-gradient(135deg, var(--logo-cyan), var(--logo-magenta))` }}>
-                                <span className="text-2xl font-bold text-white">24h</span>
+                            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:shadow-2xl group-hover:scale-110 transition-all duration-300" style={{ background: `linear-gradient(135deg, var(--logo-cyan), var(--logo-magenta))` }}>
+                                <span className="text-xl sm:text-2xl font-bold text-white">24h</span>
                             </div>
-                            <div className="text-neutral-300 font-semibold">⚡ Atendimento Rápido</div>
+                            <div className="text-neutral-300 font-semibold text-sm sm:text-base px-2">⚡ Atendimento Rápido</div>
                         </div>
                         <div className="text-center group">
-                            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300" style={{ background: `linear-gradient(135deg, var(--logo-yellow), var(--logo-orange))` }}>
-                                <span className="text-lg font-bold text-white">100%</span>
+                            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:shadow-2xl group-hover:scale-110 transition-all duration-300" style={{ background: `linear-gradient(135deg, var(--logo-yellow), var(--logo-orange))` }}>
+                                <span className="text-lg sm:text-xl font-bold text-white">100%</span>
                             </div>
-                            <div className="text-neutral-300 font-semibold">🎊 Diversão Garantida</div>
+                            <div className="text-neutral-300 font-semibold text-sm sm:text-base px-2">🎊 Diversão Garantida</div>
                         </div>
                     </div>
                 </div>

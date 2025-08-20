@@ -3,7 +3,7 @@ import Header from '@/components/organisms/Header';
 import Hero from '@/components/organisms/Hero';
 import AboutSection from '@/components/organisms/AboutSection';
 import ProductsSection from '@/components/organisms/ProductsSection';
-import GalleryCarousel from '@/components/organisms/GalleryCarousel';
+// import GalleryCarousel from '@/components/organisms/GalleryCarousel';
 import Footer from '@/components/organisms/Footer';
 import FloatingWhatsApp from '@/components/molecules/FloatingWhatsApp';
 
@@ -15,7 +15,7 @@ export default function HomePage() {
                 <Hero />
                 <ProductsSection />
                 <AboutSection />
-                <GalleryCarousel />
+                {/* <GalleryCarousel /> */}
             </main>
             <Footer />
             <FloatingWhatsApp />

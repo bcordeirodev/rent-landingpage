@@ -8,14 +8,14 @@ export default function ProductsSection() {
         {
             icon: Armchair,
             title: 'Cadeiras',
-            description: 'Cadeiras confortáveis para todos os tipos de eventos',
+            description: 'Cadeiras resistentes e confortáveis para todos os tipos de eventos',
             image: '/products/cadeira.png',
             color: 'logo-purple-blue'
         },
         {
             icon: Table,
             title: 'Mesas',
-            description: 'Mesas de diversos tamanhos para suas necessidades',
+            description: 'Mesas para você e toda sua familia',
             image: '/products/mesa.png',
             color: 'logo-cyan-magenta'
         },

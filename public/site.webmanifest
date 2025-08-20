@@ -1,7 +1,7 @@
 {
   "name": "Aluguel de Cadeiras - Riacho Fundo 2",
-  "short_name": "Aluguel Cadeiras RF1",
-  "description": "Serviço de aluguel de cadeiras de qualidade no Riacho Fundo 2. Atendimento rápido, preço justo e entrega garantida.",
+  "short_name": "Aluguel Cadeiras RF2",
+  "description": "Aluguel de cadeiras de qualidade no Riacho Fundo 2. Atendimento rápido, preço justo e entrega garantida.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
