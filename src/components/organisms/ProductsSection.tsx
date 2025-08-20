@@ -8,28 +8,28 @@ export default function ProductsSection() {
         {
             icon: Armchair,
             title: 'Cadeiras',
-            description: 'Cadeiras resistentes e confortáveis para todos os tipos de eventos',
+            description: 'Aluguel de cadeiras resistentes e confortáveis para festas infantis e eventos no Riacho Fundo 2',
             image: '/products/cadeira.png',
             color: 'logo-purple-blue'
         },
         {
             icon: Table,
             title: 'Mesas',
-            description: 'Mesas para você e toda sua familia',
+            description: 'Aluguel de mesas resistentes e funcionais para festa infantil e eventos familiares',
             image: '/products/mesa.png',
             color: 'logo-cyan-magenta'
         },
         {
             icon: Zap,
-            title: 'Cama Elástica',
-            description: 'Diversão garantida para a criançada!',
+            title: 'Pula Pula - Cama Elástica',
+            description: 'Aluguel de pula pula e cama elástica com segurança garantida para festa infantil',
             image: '/products/cama_elastica.png',
             color: 'logo-yellow-orange'
         },
         {
             icon: Waves,
             title: 'Piscina de Bolinhas',
-            description: 'Alegria e segurança para os pequenos',
+            description: 'Aluguel de piscina de bolinhas limpa e segura para diversão das crianças',
             image: '/products/piscina_bolina.png',
             color: 'logo-magenta-purple'
         }
@@ -51,8 +51,8 @@ export default function ProductsSection() {
                         </span>
                     </Heading>
                     <p className="text-lg text-neutral-300 leading-relaxed">
-                        🎉 Tudo que você precisa para tornar seu evento inesquecível!
-                        Produtos de qualidade com segurança garantida.
+                        🎉 <strong className="text-primary-300">Aluguel de cadeiras, mesas, pula pula e piscina de bolinhas</strong> no Riacho Fundo 2!
+                        Equipamentos de qualidade para festa infantil com segurança e higiene garantidas.
                     </p>
                 </div>
 

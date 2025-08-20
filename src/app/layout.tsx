@@ -1,22 +1,12 @@
 import type { Metadata } from 'next';
-import { defaultSEO } from '@/config/seo';
+import { defaultSEO, structuredData } from '@/config/seo';
 import { siteConfig } from '@/config/site';
 import '@/styles/globals.css';
 
 export const metadata: Metadata = {
-    title: "Jr Mundo Fest - Eventos e Entretenimento",
-    description: "Jr Mundo Fest - Eventos e entretenimento de qualidade. Diversão garantida para toda a família no Riacho Fundo 2.",
-    keywords: [
-        'Jr Mundo Fest',
-        'eventos',
-        'entretenimento',
-        'festas',
-        'Riacho Fundo 2',
-        'diversão',
-        'família',
-        'brasília',
-        'df',
-    ],
+    title: defaultSEO.title,
+    description: defaultSEO.description,
+    keywords: siteConfig.seo.keywords,
     authors: [{ name: siteConfig.name }],
     creator: siteConfig.name,
     publisher: siteConfig.name,
@@ -74,6 +64,14 @@ export default function RootLayout({
 }) {
     return (
         <html lang="pt-BR">
+            <head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify(structuredData),
+                    }}
+                />
+            </head>
             <body className="font-sans antialiased">
                 {children}
             </body>

@@ -34,8 +34,8 @@ export default function Hero() {
 
                     {/* Subtitle */}
                     <p className="text-lg sm:text-xl text-neutral-300 mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed animate-slide-up px-4">
-                        ✨ Transformamos seus momentos especiais em experiências inesquecíveis!
-                        🎈 Diversão, alegria e entretenimento de qualidade para toda a família. 🎪
+                        ✨ Aluguel de <strong className="text-primary-300">cadeiras, mesas, pula pula e piscina de bolinhas</strong> no Riacho Fundo 2!
+                        🎈 Transformamos suas festas em experiências inesquecíveis com equipamentos de qualidade e segurança garantida. 🎪
                     </p>
 
                     {/* CTA Buttons */}

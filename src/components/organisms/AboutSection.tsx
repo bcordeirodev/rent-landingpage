@@ -18,8 +18,8 @@ export default function AboutSection() {
         },
         {
             icon: Truck,
-            title: 'Serviço Completo',
-            description: 'Cuidamos de todos os detalhes do seu evento do início ao fim.',
+            title: 'Entrega e Montagem',
+            description: 'Levamos cadeiras, mesas, pula pula e piscina de bolinhas até você no Riacho Fundo 2.',
             color: 'from-yellow-500 to-yellow-600'
         },
         {
@@ -44,9 +44,9 @@ export default function AboutSection() {
                         Por que escolher o Jr Mundo Fest?
                     </Heading>
                     <p className="text-lg text-neutral-300 leading-relaxed">
-                        Somos especialistas em eventos e entretenimento no Riacho Fundo 2, oferecendo
-                        experiências únicas e personalizadas para tornar seu evento inesquecível.
-                        Nossa paixão e dedicação garantem a diversão e satisfação de todos os participantes.
+                        Especialistas em <strong className="text-primary-300">aluguel de cadeiras, mesas, pula pula e piscina de bolinhas</strong> no Riacho Fundo 2. 
+                        Oferecemos equipamentos de qualidade para festas infantis, aniversários e eventos, 
+                        com <strong className="text-secondary-300">entrega, montagem e segurança garantida</strong>.
                     </p>
                 </div>
 
@@ -79,10 +79,10 @@ export default function AboutSection() {
                         <div className="prose prose-lg mx-auto text-neutral-300 space-y-4 sm:space-y-6">
                             <div className="bg-primary-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-primary-500/30">
                                 <p className="text-lg leading-relaxed">
-                                    Há mais de <span className="font-bold text-primary-400">5 anos</span> levando alegria e diversão para a comunidade do Riacho Fundo 2,
-                                    construímos nossa reputação baseada na criatividade, inovação e
-                                    excelência no entretenimento. Entendemos que cada momento é único e
-                                    especial, por isso criamos experiências personalizadas para suas celebrações.
+                                    Há mais de <span className="font-bold text-primary-400">5 anos</span> oferecendo aluguel de cadeiras, mesas, pula pula e piscina de bolinhas 
+                                    para a comunidade do Riacho Fundo 2. Construímos nossa reputação baseada na qualidade dos equipamentos,
+                                    segurança das crianças e excelência no atendimento. Entendemos que cada festa infantil é única e
+                                    especial, por isso oferecemos equipamentos limpos e seguros para suas celebrações.
                                 </p>
                             </div>
                             <div className="bg-secondary-900/20 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border border-secondary-500/30">
@@ -94,8 +94,9 @@ export default function AboutSection() {
                             </div>
                             <div className="backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 sm:p-6 shadow-lg border" style={{ backgroundColor: 'rgba(251, 191, 36, 0.1)', borderColor: 'rgba(251, 191, 36, 0.3)' }}>
                                 <p className="text-lg leading-relaxed">
-                                    Seja para festas de aniversário, casamentos, eventos corporativos ou
-                                    comemorações familiares, estamos aqui para fazer a <span className="font-bold" style={{ color: 'var(--logo-yellow)' }}>magia acontecer no seu dia especial</span>.
+                                    Seja para festas de aniversário infantil, comemorações familiares ou eventos no Riacho Fundo 2, 
+                                    temos <span className="font-bold" style={{ color: 'var(--logo-yellow)' }}>cadeiras confortáveis, mesas resistentes, pula pula seguro e piscina de bolinhas limpa</span> 
+                                    para fazer a magia acontecer no seu dia especial.
                                 </p>
                             </div>
                         </div>
