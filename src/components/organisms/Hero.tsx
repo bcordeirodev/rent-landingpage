@@ -1,4 +1,4 @@
-import { MessageCircle, Star, Instagram } from 'lucide-react';
+import { MessageCircle, Instagram } from 'lucide-react';
 import Heading from '@/components/atoms/Heading';
 import Button from '@/components/atoms/Button';
 import { siteConfig } from '@/config/site';
