@@ -3,10 +3,10 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.alugueldecadeiras-rf1.com.br
+Host: https://www.jrmundofest.com.br
 
 # Sitemaps
-Sitemap: https://www.alugueldecadeiras-rf1.com.br/sitemap.xml
+Sitemap: https://www.jrmundofest.com.br/sitemap.xml
 
 # Disallow
 Disallow: /api/

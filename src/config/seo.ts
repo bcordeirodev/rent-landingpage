@@ -19,8 +19,8 @@ export const defaultSEO = {
     },
     twitter: {
         cardType: "summary_large_image" as const,
-        site: "@alugueldecadeirasrf1",
-        creator: "@alugueldecadeirasrf1"
+        site: "@jrmundofest_",
+        creator: "@jrmundofest_"
     },
     additionalMetaTags: [
         {

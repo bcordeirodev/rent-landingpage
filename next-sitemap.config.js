@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://www.alugueldecadeiras-rf1.com.br',
+  siteUrl: process.env.SITE_URL || 'https://www.jrmundofest.com.br',
   generateRobotsFile: true,
   generateIndexSitemap: false,
   exclude: ['/api/*'],
@@ -13,7 +13,7 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://www.alugueldecadeiras-rf1.com.br/sitemap.xml',
+      'https://www.jrmundofest.com.br/sitemap.xml',
     ],
   },
   transform: async (config, path) => {
