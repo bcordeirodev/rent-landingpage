@@ -16,7 +16,7 @@ export const siteConfig = {
     seo: {
         keywords: [
             "aluguel de cadeiras",
-            "aluguel de mesas", 
+            "aluguel de mesas",
             "piscina de bolinhas",
             "pula pula",
             "cama elástica",
@@ -36,7 +36,7 @@ export const siteConfig = {
             servingArea: ["Riacho Fundo 2", "Riacho Fundo 1", "Candangolândia", "Núcleo Bandeirante", "Park Way", "Brasília DF"],
             services: [
                 "Aluguel de cadeiras para festas",
-                "Aluguel de mesas para eventos", 
+                "Aluguel de mesas para eventos",
                 "Piscina de bolinhas para festa infantil",
                 "Pula pula e cama elástica",
                 "Equipamentos para festas e eventos"

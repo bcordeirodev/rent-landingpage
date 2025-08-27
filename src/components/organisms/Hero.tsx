@@ -61,7 +61,7 @@ export default function Hero() {
                             className="group instagram-gradient text-white shadow-2xl hover:shadow-pink-500/40 transform hover:scale-105 hover:-translate-y-1 font-semibold border-0"
                         >
                             <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                            Veja nosso Instagram
+                            Nosso Instagram
                         </Button>
                     </div>
 

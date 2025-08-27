@@ -32,7 +32,14 @@ export default function ProductsSection() {
             description: 'Aluguel de piscina de bolinhas limpa e segura para diversão das crianças',
             image: '/products/piscina_bolina.png',
             color: 'logo-magenta-purple'
-        }
+        },
+        {
+            icon: Zap,
+            title: 'Pegue e Monte',
+            description: 'Pegue você mesmo e monte a decoração, são mais de 30 temas variados para escolher e montar no local do seu evento (Consultar disponibilidade e nossos temas via WhatsApp).',
+            image: '/products/pegue_e_monte.jpeg',
+            color: 'logo-yellow-orange'
+        },
     ];
 
     return (
@@ -98,6 +105,13 @@ export default function ProductsSection() {
                             </div>
                         </Card>
                     ))}
+                </div>
+
+                {/* Nota sobre imagens ilustrativas */}
+                <div className="text-center mt-8 mb-6">
+                    <p className="text-sm text-neutral-400 italic">
+                        📸 <em>As imagens são meramente ilustrativas. Os produtos reais podem variar em cor, tamanho e acabamento.</em>
+                    </p>
                 </div>
 
                 {/* CTA */}

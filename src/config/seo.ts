@@ -1,7 +1,7 @@
 import { siteConfig } from "./site";
 
 export const defaultSEO = {
-    title: `${siteConfig.name} - Aluguel de Cadeiras, Mesas, Pula Pula e Piscina de Bolinhas no Riacho Fundo 2`,
+    title: `${siteConfig.name} - Aluguel de Cadeiras, Mesas, Pula Pula, Pegue e Monte e Piscina de Bolinhas no Riacho Fundo 2`,
     description: siteConfig.description,
     openGraph: {
         type: "website" as const,
@@ -121,7 +121,7 @@ export const structuredData = {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
             "Monday",
-            "Tuesday", 
+            "Tuesday",
             "Wednesday",
             "Thursday",
             "Friday",
@@ -153,7 +153,7 @@ export const structuredData = {
                 }
             },
             {
-                "@type": "Offer", 
+                "@type": "Offer",
                 "itemOffered": {
                     "@type": "Product",
                     "name": "Aluguel de Mesas",
@@ -163,7 +163,7 @@ export const structuredData = {
             {
                 "@type": "Offer",
                 "itemOffered": {
-                    "@type": "Product", 
+                    "@type": "Product",
                     "name": "Pula Pula - Cama Elástica",
                     "description": "Diversão garantida para a criançada!"
                 }
@@ -172,8 +172,16 @@ export const structuredData = {
                 "@type": "Offer",
                 "itemOffered": {
                     "@type": "Product",
-                    "name": "Piscina de Bolinhas", 
+                    "name": "Piscina de Bolinhas",
                     "description": "Alegria e segurança para os pequenos"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Product",
+                    "name": "Pegue e Monte - Pula Pula e Cama Elástica",
+                    "description": "Equipamentos para montar no local do seu evento com facilidade e segurança"
                 }
             }
         ]
