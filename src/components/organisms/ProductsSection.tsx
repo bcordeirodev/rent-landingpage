@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Armchair, Table, Zap, Waves } from 'lucide-react';
+import { Armchair, Table, Zap, Waves, Square } from 'lucide-react';
 import Heading from '@/components/atoms/Heading';
 import Card from '@/components/atoms/Card';
 
@@ -34,10 +34,10 @@ export default function ProductsSection() {
             color: 'logo-magenta-purple'
         },
         {
-            icon: Zap,
-            title: 'Pegue e Monte',
-            description: 'Pegue você mesmo e monte a decoração, são mais de 30 temas variados para escolher e montar no local do seu evento (Consultar disponibilidade e nossos temas via WhatsApp).',
-            image: '/products/pegue_e_monte.jpeg',
+            icon: Square,
+            title: 'Toalha de Mesa',
+            description: 'Aluguel de toalhas de mesa em diversas cores para deixar seu evento ainda mais bonito. Várias opções disponíveis (vermelho, amarelo, rosa, bege, branco e outras).',
+            image: '/products/toalha_mesa.jpg',
             color: 'logo-yellow-orange'
         },
     ];
